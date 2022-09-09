@@ -61,7 +61,7 @@ CREATE TABLE `fitness_employee` (
 
 LOCK TABLES `fitness_employee` WRITE;
 /*!40000 ALTER TABLE `fitness_employee` DISABLE KEYS */;
-INSERT INTO `fitness_employee` VALUES ('userOne','test','front staff','2022-01-01',35000),('userTwo','testtwo','front staff','2021-01-01',40000),('userThree','testthree','weight trainer','2021-02-02',40000),('userFour','four','weight trainer','2021-03-03',40000),('userFive','five','yoga instructor','2021-04-04',40000);
+INSERT INTO `fitness_employee` VALUES ('userOne','test','front staff','2022-01-01',35000),('userTwo','testtwo','front staff','2021-01-01',40000),('userThree','testthree','weight trainer','2021-02-02',40000),('userFour','four','weight trainer','2021-03-03',40000),('userFive','five','yoga instructor','2021-04-04',40000),('John','doe','parkour instructor','2021-09-09',40000);
 /*!40000 ALTER TABLE `fitness_employee` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -103,4 +103,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-09-08 20:35:48
+-- Dump completed on 2022-09-08 20:44:54
